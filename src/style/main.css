@@ -1,0 +1,7 @@
+@import url('App.css');
+@import url('index.css');
+
+h1 {
+    font-size:54px;
+    color:#fff;
+}

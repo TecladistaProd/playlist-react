@@ -1,0 +1,17 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  background-color: #555;
+}
+.wtxt{
+  color:#fff; 
+}
+
+.playlist{
+  width: 25%;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
