@@ -5,7 +5,7 @@ export default class Filter extends Component {
         return(
             <div className='wtxt'>
                 <img/>
-                <input type='text'/>
+                <input type='text' value={this.props.filter} onChange={e => this.props.onInput(e.target.value.toLowerCase())}/>
             </div>
         )
     }
