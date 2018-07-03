@@ -6,7 +6,6 @@ export default class Filter extends Component {
             <div className='wtxt'>
                 <img/>
                 <input type='text'/>
-                Filter
             </div>
         )
     }

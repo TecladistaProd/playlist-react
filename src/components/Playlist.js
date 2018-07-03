@@ -5,11 +5,9 @@ export default class Playlist extends Component {
         return(
             <div className='wtxt playlist'>
                 <img/>
-                <h3>Playlist Name</h3>
+                <h3>{this.props.playlist.name}</h3>
                 <ul>
-                    <li>Song 1</li>
-                    <li>Song 2</li>
-                    <li>Song 3</li>
+                    {this.props.playlist.songs.map((i, key)=> <li key={key}>{i.name}</li>)}
                 </ul>
             </div>
         )
